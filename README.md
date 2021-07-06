@@ -7,7 +7,7 @@ If you are looking for a place to save your to-do list this is the place for you
 
 ## Preview of the website 
 
-=> [Click here](https://izabelanowak.github.io/to-do-list-react/) to see To-do-list demo 
+=> [Click here](https://izabelanowak.github.io/to-do-list-with-redux/) to see To-do-list demo 
 
 ## Description
 Here is a simple list of tasks. Here you can add your tasks by typing the content into the text field, and then clicking the button or confirming enter! Your tasks will appear in the list below. With the green button you can mark your task as completed or delete it after pressing the red button. After entering first task, two buttons appear: (Ukryj ukończone) and (Ukończ wszystkie). The first one hides/shows all completed tasks and the second one marks all incomplete tasks as completed. The button does not work when all tasks are marked as done. Your tasks do not disappear after closing or refreshing the page, they are saved in localStorage!
