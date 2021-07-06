@@ -29,6 +29,7 @@ Here is a simple list of tasks. Here you can add your tasks by typing the conten
 -   localStorage
 -   Styled-components
 -   custom Hooks
+-   Redux
 
 ## How to use
 See gif below to see how to-do-list works!
