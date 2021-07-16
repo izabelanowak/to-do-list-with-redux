@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Button = styled.button`
     background: transparent;
+    font-size: 14px;
     color: ${({ theme }) => theme.colors.primaryColor};
     border: none;
     cursor: pointer;
