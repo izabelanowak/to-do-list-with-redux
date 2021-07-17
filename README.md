@@ -30,6 +30,8 @@ Here is a simple list of tasks. Here you can add your tasks by typing the conten
 -   Styled-components
 -   custom Hooks
 -   Redux
+-   Saga
+-   Router
 
 ## How to use
 See gif below to see how to-do-list works!
