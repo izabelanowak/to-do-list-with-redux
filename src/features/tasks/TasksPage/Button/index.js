@@ -5,7 +5,7 @@ const Button = styled.button`
     color: ${({ theme }) => theme.colors.primaryColor};
     border: none;
     cursor: pointer;
-    margin: 0 0 0 20px;
+    margin: 0 0 10px 15px;
     transition: color 0.3s;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
