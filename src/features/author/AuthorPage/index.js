@@ -25,7 +25,7 @@ function AuthorPage() {
             </Paragraph>
             <Paragraph>
               Chcesz zobaczyć więcej moich projektów?
-              Zajrzyj na moją stronę na <Link href="https://github.com/izabelanowak">Github</Link>!
+              Zajrzyj na moją stronę na <Link target="_blank" href="https://github.com/izabelanowak">Github</Link>!
             </Paragraph>
           </>
         }
