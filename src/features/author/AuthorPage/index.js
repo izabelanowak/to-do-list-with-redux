@@ -12,15 +12,15 @@ function AuthorPage() {
         body={
           <>
             <Paragraph>
-              Mam umysł ścisły i lubię świat techniki 📐.
-              Kierując się tym ukończyłam studia na kierunku <strong>Automatyka i Robotyka</strong> 🤖.
+              Mam umysł ścisły i lubię świat techniki 📐
+              Kierując się tym ukończyłam studia na kierunku <strong>Automatyka i Robotyka</strong> 🤖
             </Paragraph>
             <Paragraph>
-              Lubię tworzyć "coś z niczego", dlatego programowanie daje mi dużo frajdy i satysfakcji 😎.
-              Uwielbiam programować <strong>strony i aplikacje internetowe</strong>. Lubie nowe wyzwania 🙂.
+              Lubię tworzyć "coś z niczego", dlatego programowanie daje mi dużo frajdy i satysfakcji 😎
+              Uwielbiam programować <strong>strony i aplikacje internetowe</strong>. Lubie nowe wyzwania 🙂
             </Paragraph>
             <Paragraph>
-              W czasie wolnym lubię spędzać czas na tworzeniu <strong>maskotek z włóczki</strong> 🧶. Prace wykonuje na szydełku.
+              W czasie wolnym lubię spędzać czas na tworzeniu <strong>maskotek z włóczki</strong> 🧶 Prace wykonuje na szydełku.
               Sprawia mi to wiele radości, kiedy ze zwykłego motka włóczki powstaje maskotka 🧸, która może sprawić dużo radości jakiemuś dziecku.
             </Paragraph>
             <Paragraph>
