@@ -48,7 +48,7 @@ const Buttons = () => {
                 </>
             )
             }
-        </Wrapper >
+        </Wrapper>
     )
 };
 

@@ -15,7 +15,7 @@ const ExampleTasks = () => {
             >
                 {loading ? "Ładowanie..." : "Pobierz przykładowe zadania"}
             </Button>
-        </Wrapper >
+        </Wrapper>
     )
 };
 
