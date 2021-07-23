@@ -15,7 +15,7 @@ function TaskPage() {
             <Section
                 title={task ? task.content : "Nie ma takiego zadania!"}
                 body={
-                    task && (
+                    !!task && (
                         <>
                             <strong>Ukończono: </strong>
                             {task.done ? "Tak" : "Nie"}
