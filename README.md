@@ -1,5 +1,4 @@
-# To-do-list
-![icon](public/icon.png)
+# ![icon](./iconSmall.png) To-do-list 
 
 Welcome to To-do-list!
 
@@ -7,10 +6,12 @@ If you are looking for a place to save your to-do list this is the place for you
 
 ## Preview of the website 
 
-=> [Click here](https://izabelanowak.github.io/to-do-list-with-redux/) to see To-do-list demo 
+![icon](./iconSmall.png) [Click here](https://izabelanowak.github.io/to-do-list-with-redux/) to see To-do-list demo!
 
-## Description
-Here is a simple list of tasks. Here you can add your tasks by typing the content into the text field, and then clicking the button or confirming enter! Your tasks will appear in the list below. With the green button you can mark your task as completed or delete it after pressing the red button. After entering first task, two buttons appear: (Ukryj ukończone) and (Ukończ wszystkie). The first one hides/shows all completed tasks and the second one marks all incomplete tasks as completed. The button does not work when all tasks are marked as done. Your tasks do not disappear after closing or refreshing the page, they are saved in localStorage!
+## How to use
+See gif below to see how to-do-list works!
+
+![Gif demo](./demo.gif)
 
 ## Used technologies:
 
@@ -25,36 +26,36 @@ Here is a simple list of tasks. Here you can add your tasks by typing the conten
 -   create-react-app
 -   Webpack
 -   Babel
--   Hooks (useState, useEffect)
+-   Hooks (useState, useEffect useRef, useSelector, useDispatch, useHistory, useLocation)
 -   localStorage
 -   Styled-components
 -   custom Hooks
 -   Redux
--   Saga
--   Router
+-   Redux Toolkit
+-   Redux-Saga
+-   React Router
+## Description
+Here is a list of tasks.
 
-## How to use
-See gif below to see how to-do-list works!
+At the very top of the page there is a navigation that allows you to navigate around the page.
 
-1. Add new task by clicking into button (Dodaj zadanie) or just click enter!
+Here you can add your tasks by typing the content into the text field, and then clicking the button or confirming enter! Your tasks will appear in the list below. 
 
-![Gif demo 1](./to-do-demo1.gif)
+With the green button you can mark your task as completed or delete it after pressing the red button. 
 
-2. You can set your task as done by click in green button, or remove task by clicking in red button!
+After entering first task, four buttons appear: *(Ukryj ukończone)*, *(Odznacz wszystkie)*, *(Ukończ wszystkie)* and *(Usuń wszystkie)*. The first one hides/shows all completed tasks, the second one marks all complete tasks as undone (button is disabled when all task are incompleted). The next one marks all incomplete tasks as completed and this button does not work when all tasks are marked as done. The last one removes all tasks on the list. 
 
-![Gif demo 2](./to-do-demo2.gif)
+Your tasks do not disappear after closing or refreshing the page, they are saved in localStorage!
 
-3. Hide/show your completed tasks with the button (Ukryj ukończone).
+An additional functionality is the ability to download sample tasks. You can do it by clicking on the button *(Pobierz przykładowe zadania)*. After a while (instead of the button during this time, text *(Ładowanie…)* will appear) the example tasks appear on the list!
 
-![Gif demo 3](./to-do-demo3.gif)
+Next feature is the search engine. Thanks to it, by entering the appropriate phrase as the search key, tasks on the to-do-list are filtered according to the key.
 
-4. Set all tasks complete with the button (Ukończ wszystkie).
+After clicking on the content of a specific task, the user is transferred to a subpage with detailed information about this task.
 
-![Gif demo 4](./to-do-demo4.gif)
+After selecting *(O autorze)* in the menu, a page with some information about the author is displayed.
 
-5. See how to-do list works on phones!
-
-![Gif demo 5](./to-do-demo5.gif)
+Website is friendly to mobile devices.
 
 
 ## Getting Started with Create React App
