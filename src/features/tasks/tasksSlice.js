@@ -24,7 +24,7 @@ const tasksSlice = createSlice({
             tasks.splice(index, 1);
         },
         removeAllTasks: ({ tasks }) => {
-            tasks = [];
+            tasks.length = 0;
         },
         setAllDone: ({ tasks }) => {
             for (const task of tasks) {
